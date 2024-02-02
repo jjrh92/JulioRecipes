@@ -1,2 +1,2 @@
 # contentfulPlayground
-Proyecto React/Typescript con NextJS y Contentful
+Proyecto React con NextJS y Contentful
