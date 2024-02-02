@@ -1,15 +1,16 @@
 import Link from 'next/link'
 
-export default function Layout({ children }) {
+export default function Layout ({ children }) {
+
   return (
+
     <div className="layout">
       <header>
-        <Link href="/">
+        <Link draggable="false" href="/">
             <h1>
-              <span>Julio</span>
-              <span>Recetas</span>
+              <span style={{fontWeight: "bolder", fontSize: "50px"}}>Ponle</span>
+              <span style={{color: "green"}}>Verde</span>
             </h1>
-            <h2>Spread The Joy</h2>
         </Link>
       </header>
 
@@ -18,8 +19,9 @@ export default function Layout({ children }) {
       </div>
 
       <footer>
-        <p>2024 - Julio Reyes</p>
+        <Link target='blank' style={{textDecoration: "none", color: '#F4E640'}} href="https://www.jjrh92.dev">2024 - Julio Reyes</Link>
       </footer>
     </div>
+
   )
 }

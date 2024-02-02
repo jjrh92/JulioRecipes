@@ -1,4 +1,4 @@
-export default function RecipeDetails() {
+export default function RecipeDetails () {
   return (
     <div>
       Recipe Details
